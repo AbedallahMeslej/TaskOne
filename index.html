@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<title>task-form</title>
+</head>
+
+<body>
+	<div class="container">
+		<form>
+			<div class="form">
+				<div class="registration">
+					registration
+				</div>
+				<div class="flex">
+					<div class="container-inputs">
+						<label for="name">full name</label>
+						<input id="name" type="text" placeholder="enter your name">
+					</div>
+					<div class="container-inputs">
+						<label for="user">username</label>
+						<input id="user" type="text" placeholder="enter your username">
+					</div>
+				</div>
+				<div class="flex">
+					<div class="container-inputs">
+						<label for="email">email</label>
+						<input id="email" type="email" required placeholder="enter your email">
+					</div>
+					<div class="container-inputs">
+						<div class="mar">
+							<label for="number">phone number</label>
+							<input id="number" type="number" placeholder="enter your number">
+						</div>
+					</div>
+				</div>
+				<div class="flex">
+					<div class="container-inputs">
+						<label for="pass">password</label>
+						<input id="pass" type="password" placeholder="enter your password">
+					</div>
+					<div class="container-inputs">
+						<div class="mar">
+							<label for="passC">confirm password</label>
+							<input id="passC" type="password" placeholder="confirm password">
+						</div>
+					</div>
+				</div>
+				<div class="gender">
+					<label for="gender">gender</label>
+					<div class="container-radio">
+						<div>
+							<input type="radio" name="gender" id="male">
+							<label for="male">male</label>
+						</div>
+
+
+						<div>
+							<input type="radio" name="gender" id="female">
+							<label for="female">female</label>
+						</div>
+
+
+						<div> <input type="radio" name="gender" id="not">
+							<label for="not">prefer not to say</label>
+						</div>
+
+					</div>
+				</div>
+				<button type="submit" class="btn-log">log in</button>
+			</div>
+		</form>
+	</div>
+	<script src="js.js"></script>
+</body>
+
+</html>
